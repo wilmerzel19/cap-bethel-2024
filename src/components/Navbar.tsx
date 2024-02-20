@@ -1,4 +1,3 @@
-import{ SignOutButton } from "@clerk/clerk-react"
 
 
 function Navbar() {
@@ -40,7 +39,7 @@ function Navbar() {
           </a>
         </li>
         <li><a>Settings</a></li>
-        <li><a> <SignOutButton signOutCallback={() => {"/"}}/>
+        <li><a>
 </a></li>
       </ul>
     </div>
